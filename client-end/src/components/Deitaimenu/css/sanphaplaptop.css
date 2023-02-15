@@ -1,0 +1,45 @@
+.sanphamlaptop{
+    width: 1250px;
+    height: auto;
+    margin-top: 10px;
+}
+.yeuthich{
+    height: 25px;
+    float: right;
+}
+.SlickArrowLeft_laptop{
+    border-radius: 0 100px 100px 0;
+    width: 30px;
+    height: 60px;
+    display: flex;
+    z-index: 10;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    /* box-shadow: 0 0 4px 0 rgb(0 0 0 / 20%); */
+    font-size: 2rem;
+    top: 46%;
+    margin-left: -10px;
+    transition: .3s;
+    outline: none;
+    opacity: .8;
+}
+.SlickArrowRight_laptop{
+    border-radius: 100px 0 0 100px ;
+    width: 30px;
+    position: absolute;
+    height: 60px;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    font-size: 1.8rem;
+    top: 46%;
+    transition: .3s;
+    float: right;
+    margin-right: -10px;
+    outline: none;
+    opacity: .8;
+    right: 0;
+}

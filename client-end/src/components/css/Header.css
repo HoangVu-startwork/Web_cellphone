@@ -1,0 +1,388 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.topBarHeader{
+    height: 30px;
+    background: linear-gradient(-170deg,#f5ac27,#ffd84b 80%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    width: 100%;
+    top: 0;
+}
+.topBarHeader a {
+    color: #d91e18;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.topBarHeader .pulsingButton {
+    width: 10px;
+    height: 10px;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    box-shadow: 0 0 0 0 rgb(215 0 24 / 70%);
+    border-radius: 50%;
+    background-color: #e41e31;
+    animation: pulsing 1.25s cubic-bezier(.66,0,0,1) infinite;
+    transition: all .3s ease-in-out;
+}
+@keyframes pulsing {
+    100% {
+        box-shadow: 0 0 0 10px rgb(232 76 61 / 0%);
+    }
+}
+ul#main-menu .aotolitt .activeaauto select{
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    padding: 0 0 0 0;
+    margin: 0;
+    width: 100%;
+    cursor: inherit;
+    line-height: inherit;
+}
+ul#main-menu.activeaauto{
+    height: 30px;
+}
+ul#main-menu .aotolitt .activeaauto select::-ms-expand {
+    display: none;
+}
+ul#main-menu .aotolitt .activeaauto select{
+    outline: none;
+}
+body{
+    margin: auto;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#header ul{
+    list-style: none;
+}
+#header a{
+    text-decoration: none;
+}
+.war{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background: #d70018;
+    background-color: #d70018;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+}
+#wrapsewp{
+    height: 64px;
+    padding: 5px;
+    display: flex;
+    line-height: 15px;
+    text-align: center;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 1330px;
+    margin: 0 auto;
+}
+#header ul#main-menu li #iconc{
+    margin-right: 12px;
+    color: rgb(255, 255, 255);
+}
+#header ul#main-menu li .danhmuc #iconc{
+    margin-right: 6px;
+    margin-left: 1px;
+    font-size: 18px;
+    color: rgb(255, 255, 255)
+}
+#header ul#main-menu li .activetc{
+    font-size: 14px;
+    margin-top: -5px;
+    line-height: 6px;
+}
+#header ul#main-menu li .activetc #inince{
+    margin-left: 7px;
+    margin-top: -2px;
+}
+#header ul#main-menu li .activetc p{
+    margin-top: 5px;
+    margin-left: -3px;
+}
+#wrapsewp .logo{
+    width: 210px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+#wrapsewp .logo1 {
+    display: none;
+}
+#header ul#main-menu .aotolitt{
+    height: 42px;
+    padding: 3px 1px;
+    margin-left: -1px;
+    border-radius: 10px;
+    width: 130px;
+    margin-top: 20px;
+}
+#header ul#main-menu .aotolitt .activeaauto .label-label{
+    font-size: 11px;
+    padding-left: 27px;
+    align-items: center;
+    margin-top: 4px;
+    width: 100px;
+}
+#header ul#main-menu .aotolitt span {
+    display: flex;
+    margin-left: 2px;
+    margin-top: 9px;
+    font-size: 22px;
+}
+#header ul#main-menu .aotolitt a {
+    height: 30px;
+}
+ #header ul#main-menu .aotolitt .activeaauto select{
+    font-size: 12px;
+    padding-left: 36px;
+    align-items: center;
+    width: 100px;
+    color: #ffffff;
+}
+#header ul#main-menu .aotolitt .activeaauto{
+    margin-top: -37px;
+    height: 50px;  
+} 
+#header ul#main-menu .list {
+    height: 42px;
+    width: 130px;
+    align-items: center;
+    margin-top: 20px;
+}
+#header ul#main-menu .list i{
+    font-size: 19px;
+    margin-top: -3px;
+}
+#header ul#main-menu .list .activet{
+    font-size: 12px;
+    margin-top: -12px;
+    margin-left: 2px;
+}
+#header ul#main-menu .list a{
+    height: 30px;
+}
+#header ul#main-menu .list a .activet label{
+    margin-top: -12px;
+    width: 95px;
+}
+#header ul#main-menu .list a .activet p{
+    margin-left: -30px;
+    margin-top: -3px;
+}
+#header ul#main-menu .list a{
+    display: flex;
+}
+#header ul#main-menu .list:hover{
+    border-radius: 10px;
+    text-decoration: none!important;
+    background: rgb(218, 79, 79);
+}
+#header ul#main-menu{
+    display: flex;
+    margin-left: 12px;
+}
+#header ul#main-menu li a{
+    height: 100px;
+    color: #ffffff;
+}
+#header ul#main-menu .activeaauto a{
+    font-size: 13px;
+}
+#header ul#main-menu li a p{
+    padding-left: 10px;
+    padding-top: 3px;
+}
+#header ul#main-menu li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 14px;
+    height: 50px;
+    padding: 15px 12px;
+    display: block;
+    color: #ffffff;
+}
+#header ul#main-menu li .danhmuc{
+    text-align: center;
+    display: flex;
+    width: 100px;
+    align-items: center;
+    height: 42px;
+    font-size: 13px;
+    margin-left: -55px;
+    padding: 3px 5px;
+    border-radius: 10px;
+    text-decoration: none!important;
+    background: rgb(218, 79, 79);
+    position: relative;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+#header ul#main-menu li .danhmuc p {
+    width: 100px;
+    margin-left: -5px;
+    margin-top: 12px;
+}
+
+#header ul#main-menu li:hover a{
+    color: #e1cece;
+}
+#header ul#main-menu .input{
+    width: auto;
+    margin-top: 8px;
+}
+#header ul#main-menu .input input{
+    display: block;
+    width: 250px;
+    height: 35px;
+    margin: 1px 0;
+    padding:10px;
+    margin-left: -12px;
+  }
+#header ul#main-menu li .type-1 {
+    border-radius: 10px;
+    border: 1px solid #eee;
+    transition: .3s border-color;
+  }
+  #header ul#main-menu li .type-1:hover {
+    border: 1px solid #aaa;
+  }
+  #header ul#main-menu .cuahang{
+    width: 110px;
+    height: 42px;
+    margin-top: 20px;
+    font-size: 12px;
+    margin-right: 24px;
+    margin-left: -4px;
+  }
+#header ul#main-menu .cuahang i{
+    font-size: 19px;
+    display: flex;
+    margin-top: -2px;
+}
+#header ul#main-menu .cuahang .activet{
+    font-size: 12px;
+    margin-top: -29px;
+    margin-left: 12px;
+}
+#header ul#main-menu .cuahang a{
+    height: 30px;
+}
+#header ul#main-menu .cuahang a .activet label{
+    width: 95px;
+}
+#header ul#main-menu .cuahang a .activet p{
+    margin-left: -20px;
+    margin-top: -3px;
+}
+#header ul#main-menu .cuahang:hover{
+    border-radius: 10px;
+    text-decoration: none!important;
+    background: rgb(218, 79, 79);
+}
+#header ul#main-menu .donhang{
+    width: 120px;
+    height: 42px;
+    margin-top: 20px;
+    font-size: 12px;
+    margin-right: 4px;
+    margin-left: -14px;
+  }
+#header ul#main-menu .donhang i{
+    font-size: 19px;
+    display: flex;
+    margin-top: -2px;
+}
+#header ul#main-menu .donhang .activet{
+    font-size: 12px;
+    margin-top: -29px;
+    margin-left: 12px;
+}
+#header ul#main-menu .donhang a{
+    height: 30px;
+}
+#header ul#main-menu .donhang a .activet label{
+    margin-top: -12px;
+    width: 95px;
+}
+#header ul#main-menu .donhang a .activet p{
+    margin-left: 2px;
+    margin-top: -3px;
+}
+#header ul#main-menu .donhang:hover{
+    border-radius: 10px;
+    text-decoration: none!important;
+    background: rgb(218, 79, 79);
+}
+#header ul#main-menu .giohang{
+    width: 75px;
+    height: 42px;
+    margin-top: 20px;
+    font-size: 12px;
+    margin-left: -2px; 
+  }
+#header ul#main-menu .giohang i{
+    font-size: 19px;
+    display: flex;
+    margin-top: -2px;
+}
+#header ul#main-menu .giohang a{
+    height: 30px;
+}
+#header ul#main-menu .giohang .activet{
+    font-size: 12px;
+    margin-top: -29px;
+    margin-left: -11px;
+}
+#header ul#main-menu .giohang a .activet label{
+    margin-top: -13px;
+    font-weight: 600;
+    width: 95px;
+}
+#header ul#main-menu .giohang a .activet p{
+    margin-left: 2px;
+    font-weight: 600;
+    margin-top: -3px;
+}
+#header ul#main-menu .giohang a span{
+    color: #000;
+    display: flex;
+    position: absolute;
+    font-weight: 600;
+    margin-top: 1px;
+    margin-left: 4.9px;
+
+}
+#header ul#main-menu .giohang:hover{
+    border-radius: 10px;
+    text-decoration: none!important;
+    background: rgb(218, 79, 79);
+}
+#header ul#main-menu .aotolit {
+    width: 100px;
+    display: flex;
+    margin-right: 10px;
+    background: #333;
+    margin-top: 20px;
+    margin-left: 4px;
+    border-radius: 10px;
+    text-decoration: none!important;
+    background: rgb(218, 79, 79);
+    height: 42px;
+}

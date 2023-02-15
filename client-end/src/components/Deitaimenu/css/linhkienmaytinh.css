@@ -1,0 +1,40 @@
+.linhkienmaytinh{
+    width: 1250px;
+    height: auto;
+    margin-top: 10px;
+}
+.linhkienmaytinh .linhkienmaytinh_kung{
+    width: 1100px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.img-linhkienmaytinh{
+    
+    width: 115px;
+    display: block;
+    height: 125px;
+    overflow: hidden;
+    text-decoration: none;
+    position: relative;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    min-height: 125px;
+}
+.block-phukien a:hover{
+    text-decoration: none;
+
+}
+.block-phukien-text {
+    width: 100%;
+    margin-top: 5px;
+    padding: 0 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(247, 247, 247);
+    z-index: 1;
+    text-decoration: none;
+    display: block;
+}

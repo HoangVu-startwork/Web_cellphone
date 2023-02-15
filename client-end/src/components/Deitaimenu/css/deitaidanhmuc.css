@@ -1,0 +1,80 @@
+.container_menu {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display: flex;
+    margin-left: 14px;
+ }
+ 
+.post_menu {
+    width: 205px;
+    height: 375px;
+    margin-right: 14px;
+    display: block;
+    border-radius: 15px;
+    /* overflow: auto; */
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    /*  */
+}
+.center_menu{
+    /* width: calc(100% - 470px); */
+    width: 715px;
+    margin-right: 14px;
+    height: 375px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+.sidebar_menu {
+    width: 270px;
+    height: 375px;
+    border-radius: 10px;
+}
+.content-sanphamnoibat-text{
+    margin-top: 15px;
+    justify-content: center;
+    font-weight: 900;
+    align-items: center;
+    text-align: center;
+    margin-left: 18px;
+    font-size: 25px;
+}
+
+/*  */
+
+.SlickArrowLeft_manhinh{
+    border-radius: 0 100px 100px 0;
+    width: 30px;
+    height: 60px;
+    display: flex;
+    z-index: 10;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    /* box-shadow: 0 0 4px 0 rgb(0 0 0 / 20%); */
+    font-size: 2rem;
+    top: 40%;
+    margin-left: -10px;
+    transition: .3s;
+    outline: none;
+    opacity: .8;
+}
+.SlickArrowRight_manhinh{
+    border-radius: 100px 0 0 100px ;
+    width: 30px;
+    position: absolute;
+    height: 60px;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    /* box-shadow: 0 0 4px 0 rgb(0 0 0 / 20%); */
+    font-size: 1.8rem;
+    top: 40%;
+    transition: .3s;
+    float: right;
+    margin-right: -10px;
+    outline: none;
+    opacity: .8;
+    right: 0;
+}

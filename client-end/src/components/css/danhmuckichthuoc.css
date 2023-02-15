@@ -1,0 +1,15 @@
+@media (max-width: 1320px){
+    #danhmuc{
+        position: absolute;
+        top: 80px;
+        left: 10px;
+        width: 280px;
+        padding: 25px;
+        display: none;
+    }
+    #wrapper{
+        width: 90%;
+        margin: 3px;
+        z-index: 100;
+    }
+}

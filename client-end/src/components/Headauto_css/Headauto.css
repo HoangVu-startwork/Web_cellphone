@@ -1,0 +1,57 @@
+.content{
+    width: 1250px;
+    /* overflow: auto; */
+    margin: 0 auto;
+    padding-top: 7em;
+    display: block;
+    box-sizing: border-box;
+    height: auto;
+}
+#left{                         
+    position: fixed;
+    top: 110px;
+    left: calc(50% - 825px);
+    animation: shakeBannerLeft 7s ease-in-out infinite;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: shakeBannerLeft;
+}
+  @keyframes shakeBannerLeft {
+    33% {
+        transform: rotate(4deg);
+    }
+    60% {
+        transform: rotate(-4deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+  }
+#center {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    line-height: 20px;
+    height: auto;
+}
+#right {
+    position: fixed;
+    top: 110px;
+    /* z-index: 10; */
+    left: unset;
+    right: calc(50% - 825px);
+    animation: shakeBannerLeft 7s ease-in-out infinite;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: shakeBannerLeft;
+  }
+  
